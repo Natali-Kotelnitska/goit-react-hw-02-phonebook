@@ -70,13 +70,14 @@ export class App extends Component {
     return (
       <div
         style={{
-          height: '100vh',
+          // height: '100vh',
           justifyContent: 'center',
           alignItems: 'center',
           fontSize: 20,
           fontWeight: 700,
           color: '#010101',
-          padding: '40px',
+          // paddingTop: '20px',
+          padding: '20px 45px',
         }}
       >
         <h1>Phonebook</h1>
