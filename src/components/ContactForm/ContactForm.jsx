@@ -7,6 +7,10 @@ const INITIAL_STATE = {
   number: '',
 };
 class ContactForm extends Component {
+  static propTypes = {
+    onSubmit: PropTypes.func,
+  };
+
   state = {
     ...INITIAL_STATE,
   };
@@ -67,7 +71,7 @@ class ContactForm extends Component {
     );
   }
 }
-ContactForm.propTypes = {
-  onSubmit: PropTypes.func,
-};
+// ContactForm.propTypes = {
+//   onSubmit: PropTypes.func,
+// };
 export default ContactForm;
